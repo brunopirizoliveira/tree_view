@@ -1,0 +1,27 @@
+#treeview-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#treeview-table th,
+#treeview-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 25%;
+    /* Defina uma largura fixa para cada coluna */
+    box-sizing: border-box;
+    /* Inclui padding e border na largura total */
+}
+
+.treegrid {
+    cursor: pointer;
+}
+
+.treegrid-collapsed {
+    display: none;
+}
+
+.treegrid-control {
+    width: 20px;
+    text-align: center;
+}

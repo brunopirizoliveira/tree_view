@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree View</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <table id="treeview-table">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Details</th>
+                <th>NM</th>
+                <th>Local</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-level="1" class="treegrid">
+                <td class="treegrid-control">+</td>
+                <td>Rep 12</td>
+                <td>012345</td>
+                <td>Refeitorio</td>
+            </tr>
+            <tr data-level="2" class="treegrid treegrid-collapsed">
+                <td class="treegrid-control"></td>
+                <td>--- Lacre</td>
+                <td>03453</td>
+                <td>Refeitorio</td>
+            </tr>
+            <tr data-level="2" class="treegrid treegrid-collapsed">
+                <td class="treegrid-control"></td>
+                <td>--- Guilhotina</td>
+                <td>23452</td>
+                <td>Refeitorio</td>
+            </tr>
+            <tr data-level="1" class="treegrid">
+                <td class="treegrid-control">+</td>
+                <td>Codin</td>
+                <td>666666</td>
+                <td>Recursos Humanos</td>
+            </tr>
+            <tr data-level="2" class="treegrid treegrid-collapsed">
+                <td class="treegrid-control"></td>
+                <td>--- Lacre</td>
+                <td>999999</td>
+                <td>Recursos Humanos</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js?v=1.19"></script>
+</body>
+
+</html>
